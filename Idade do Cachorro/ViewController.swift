@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func descobrirAnosDeCachorragem(_ sender: Any) {
         
         let idade = Int (campoIdade.text!)! * 7
-        legendaResultado.text = "Essa cadela tem " + String(idade) + " anos de cachorragem"
+        legendaResultado.text = "Essa cadela tem " + String(idade) + " anos humanos de cachorragem"
     }
     
     override func viewDidLoad() {
