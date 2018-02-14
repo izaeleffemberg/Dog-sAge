@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var legendaResultado: UILabel!
+    @IBOutlet weak var campoIdade: UITextField!
+    
+    @IBAction func descobrirAnosDeCachorragem(_ sender: Any) {
+        
+        let idade = Int (campoIdade.text!)! * 7
+        legendaResultado.text = "Essa cadela tem " + String(idade) + " anos de cachorragem"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +28,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

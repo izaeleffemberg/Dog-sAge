@@ -12,6 +12,7 @@
 		264BC7942034BA8200966CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264BC7922034BA8200966CDB /* Main.storyboard */; };
 		264BC7962034BA8200966CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264BC7952034BA8200966CDB /* Assets.xcassets */; };
 		264BC7992034BA8200966CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264BC7972034BA8200966CDB /* LaunchScreen.storyboard */; };
+		264BC7A12034BC0000966CDB /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 264BC7A02034BC0000966CDB /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		264BC7952034BA8200966CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264BC7982034BA8200966CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264BC79A2034BA8200966CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264BC7A02034BC0000966CDB /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = "../../../Downloads/imagens-app-idade-cachorro/cachorro.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		264BC78D2034BA8200966CDB /* Idade do Cachorro */ = {
 			isa = PBXGroup;
 			children = (
+				264BC7A02034BC0000966CDB /* cachorro.png */,
 				264BC78E2034BA8200966CDB /* AppDelegate.swift */,
 				264BC7902034BA8200966CDB /* ViewController.swift */,
 				264BC7922034BA8200966CDB /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264BC7A12034BC0000966CDB /* cachorro.png in Resources */,
 				264BC7992034BA8200966CDB /* LaunchScreen.storyboard in Resources */,
 				264BC7962034BA8200966CDB /* Assets.xcassets in Resources */,
 				264BC7942034BA8200966CDB /* Main.storyboard in Resources */,
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR4SSKRT7W;
 				INFOPLIST_FILE = "Idade do Cachorro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.twonthebeach.Idade-do-Cachorro";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR4SSKRT7W;
 				INFOPLIST_FILE = "Idade do Cachorro/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.twonthebeach.Idade-do-Cachorro";
